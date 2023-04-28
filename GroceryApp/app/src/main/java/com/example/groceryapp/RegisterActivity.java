@@ -1,6 +1,10 @@
 package com.example.groceryapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -14,10 +18,16 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class RegisterActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    Button regbt2;
+    TextView signbtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        regbt2 = findViewById(R.id.reg_btn);
+        signbtn = findViewById(R.id.sign_in);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -31,6 +41,32 @@ public class RegisterActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+
+        regbt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(RegisterActivity.this,MainActivity.class);
+                startActivity(i);
+
+            }
+
+
+        });
+
+        signbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(RegisterActivity.this,LoginActivity.class);
+                startActivity(i);
+
+            }
+
+
+        });
     }
 
 }
