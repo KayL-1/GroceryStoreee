@@ -1,48 +1,25 @@
 package com.example.groceryapp;
-
-import android.content.Intent;
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
 import android.view.View;
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.TextView;
-import com.example.groceryapp.databinding.ActivityMainBinding;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class LoginActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
-    Button lgnb1;
-    TextView regb1;
-
+    Button logButton1;
+    TextView regButton1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
 
-        lgnb1 = findViewById(R.id.login_btn);
-        regb1 = findViewById(R.id.sign_up);
+        logButton1 = findViewById(R.id.loginButton);
+        regButton1 = findViewById(R.id.signupText);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(binding.navView, navController);
-
-
-        lgnb1.setOnClickListener(new View.OnClickListener() {
+        logButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new
@@ -50,11 +27,9 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(i);
 
             }
-
-
         });
 
-        regb1.setOnClickListener(new View.OnClickListener() {
+        regButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new
@@ -64,6 +39,11 @@ public class LoginActivity extends AppCompatActivity {
             }
 
         });
+
+
+
+
     }
 
 }
+

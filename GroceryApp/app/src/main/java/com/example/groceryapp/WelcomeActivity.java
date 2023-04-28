@@ -4,10 +4,6 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.content.Intent;
-import android.app.Activity;
-
-
-
 public class WelcomeActivity extends AppCompatActivity {
 
     Button logBtn;
@@ -24,7 +20,7 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(WelcomeActivity.this,MainActivity.class);
+                        Intent(WelcomeActivity.this,LoginActivity.class);
                 startActivity(i);
 
             }
@@ -35,7 +31,7 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(WelcomeActivity.this,MainActivity.class);
+                        Intent(WelcomeActivity.this,RegisterActivity.class);
                 startActivity(i);
 
             }
