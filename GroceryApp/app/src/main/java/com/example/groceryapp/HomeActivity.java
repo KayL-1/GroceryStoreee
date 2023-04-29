@@ -11,6 +11,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
 
+    ImageView notifBut;
+    ImageView messageBut;
     ImageView prodBut1;
     ImageView prodBut2;
     ImageView prodBut3;
@@ -27,6 +29,9 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        notifBut = findViewById(R.id.NotifButton1);
+        messageBut = findViewById(R.id.messageButton1);
 
         prodBut1 = findViewById(R.id.prod1);
         prodBut2 = findViewById(R.id.prod2);
@@ -175,6 +180,27 @@ public class HomeActivity extends AppCompatActivity {
 
         });
 
+        notifBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(HomeActivity.this,NotificationActivity.class);
+                startActivity(i);
+
+            }
+
+        });
+
+        messageBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(HomeActivity.this,MessageActivity.class);
+                startActivity(i);
+
+            }
+
+        });
 
 
     }
