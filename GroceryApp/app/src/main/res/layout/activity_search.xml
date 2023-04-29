@@ -6,13 +6,167 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SearchActivity">
-    <TextView
-        android:layout_width="wrap_content"
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="11dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="275dp"
+        android:backgroundTint="#e2e9e3"
+        android:text="HAHAHAH"
+        android:textColor="#535257" />
+
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="397dp"
+        android:backgroundTint="#e2e9e3"
+        android:text="HAHAHAH"/>
+
+
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="595dp"
         android:text="Search"
         android:textColor="@color/greenBG"
-        android:layout_centerInParent="true"
-        android:textSize="36sp" />
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="484dp"
+        android:text="Recently Viewed"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="338dp"
+        android:text="Recommended"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="488dp"
+        android:text="Clear"
+        android:textColor="@color/greenBG" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="355dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="339dp"
+        android:text="Refresh"
+        android:textColor="@color/greenBG" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="532dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="8dp"
+        android:backgroundTint="#e2e9e3"
+        android:hint="Search"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="53dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="659dp"
+        app:srcCompat="@drawable/ic_baseline_message_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="659dp"
+        app:srcCompat="@drawable/ic_baseline_notif_24" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
@@ -29,4 +183,8 @@
         app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_menu" />
+
+
+
+
 </RelativeLayout>

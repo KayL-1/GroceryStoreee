@@ -13,6 +13,35 @@
         android:textColor="@color/greenBG"
         android:layout_centerInParent="true"
         android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="678dp"
+        app:srcCompat="@drawable/ic_baseline_message_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="678dp"
+        app:srcCompat="@drawable/ic_baseline_notif_24" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
@@ -29,4 +58,8 @@
         app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_menu" />
+
+
+
+
 </RelativeLayout>
