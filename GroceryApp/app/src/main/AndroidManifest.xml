@@ -19,6 +19,30 @@
             android:name=".ProfHihiActivity"
             android:exported="false" />
         <activity
+            android:name=".ProfHohoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfHahaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfGegeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfGigiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJejeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJujuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfMyShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJijiActivity"
+            android:exported="false" />
+        <activity
             android:name=".MessageActivity"
             android:exported="false" />
         <activity
