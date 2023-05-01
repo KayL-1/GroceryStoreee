@@ -6,12 +6,20 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SearchActivity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="333dp"
+        android:layout_marginBottom="583dp"
         android:text="Cart"
         android:textColor="@color/greenBG"
-        android:layout_centerInParent="true"
         android:textSize="36sp" />
 
     <ImageView
@@ -59,7 +67,154 @@
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_menu" />
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="105dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="449dp"
+        app:srcCompat="@drawable/talong" />
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="518dp"
+        android:text="HAHAHAHAHAHHAHAH"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="494dp"
+        android:textColor="@color/black"
+        android:text="HUHUHUHU" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="451dp"
+        android:text="696969"
+        android:textColor="@color/greenBG" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="113dp"
+        android:text="CHECK OUT" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="75dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="135dp"
+        android:text="TOTAL"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="111dp"
+        android:textColor="@color/greenBG"
+        android:text="6969696" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="449dp"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="444dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="456dp"
+        app:srcCompat="@drawable/ic_baseline_minus_24" />
 
 
 </RelativeLayout>
