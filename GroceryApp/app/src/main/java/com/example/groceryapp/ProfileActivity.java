@@ -12,12 +12,15 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class ProfileActivity extends AppCompatActivity {
 
     ImageView profileButton1;
+    ImageView profileButton2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
         profileButton1 = findViewById(R.id.arrowButton1);
+        profileButton2 = findViewById(R.id.arrowButton2);
+
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_profile);
@@ -52,6 +55,17 @@ public class ProfileActivity extends AppCompatActivity {
             }
 
         });
+        profileButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this,ProfHihiActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+
 
 
 
