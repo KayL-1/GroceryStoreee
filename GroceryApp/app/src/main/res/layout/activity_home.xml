@@ -148,7 +148,6 @@
                 android:src="@drawable/talong"
                 android:layout_marginLeft="10dp"
                 android:layout_height="125dp"/>
-
         </LinearLayout>
     </HorizontalScrollView>
 

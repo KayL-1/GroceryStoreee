@@ -13,6 +13,12 @@
         android:theme="@style/Theme.GroceryApp"
         tools:targetApi="31">
         <activity
+            android:name=".ProfHeheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TemplateActivity"
+            android:exported="false" />
+        <activity
             android:name=".MessageActivity"
             android:exported="false" />
         <activity
