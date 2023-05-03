@@ -19,7 +19,13 @@
             android:name=".ProfHihiActivity"
             android:exported="false" />
         <activity
+            android:name=".CheckoutCartActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProfHohoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceorderCartActivity"
             android:exported="false" />
         <activity
             android:name=".ProfHahaActivity"
