@@ -4,15 +4,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CartActivity extends AppCompatActivity {
 
+
+    Button checkoutButton1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
+
+        checkoutButton1 = findViewById(R.id.checkoutButton1);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_cart);
@@ -37,6 +45,16 @@ public class CartActivity extends AppCompatActivity {
                     return true;
             }
             return false;
+        });
+
+        checkoutButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(CartActivity.this,CheckoutCartActivity.class);
+                startActivity(i);
+            }
+
         });
     }
 }
