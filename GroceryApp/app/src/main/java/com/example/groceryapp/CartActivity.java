@@ -16,6 +16,8 @@ public class CartActivity extends AppCompatActivity {
 
 
     Button checkoutButton1;
+    ImageView mesBut;
+    ImageView notBut;
     TextView total;
     int totalInt = 1;
 
@@ -24,6 +26,8 @@ public class CartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
         total = findViewById(R.id.totalQuantity);
+        mesBut = findViewById(R.id.mesBut1);
+        notBut = findViewById(R.id.notBut1);
         checkoutButton1 = findViewById(R.id.checkoutButton1);
         Log.d("CartActivity", "total is null: " + (total == null));
 
@@ -61,6 +65,28 @@ public class CartActivity extends AppCompatActivity {
             }
 
         });
+
+        notBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(CartActivity.this,NotificationActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+        mesBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(CartActivity.this,MessageActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+
 
     }
 
