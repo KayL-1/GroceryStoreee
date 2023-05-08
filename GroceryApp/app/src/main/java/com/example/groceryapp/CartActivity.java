@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -14,12 +15,17 @@ public class CartActivity extends AppCompatActivity {
 
 
     Button checkoutButton1;
+    ImageView increase;
+    ImageView decrease;
+    public int totalInt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
-
+        increase = findViewById(R.id.increase);
+        decrease = findViewById(R.id.decrease);
+        TextView total = findViewById(R.id.totalQuantity);
         checkoutButton1 = findViewById(R.id.checkoutButton1);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
@@ -53,6 +59,26 @@ public class CartActivity extends AppCompatActivity {
                 Intent i = new
                         Intent(CartActivity.this,CheckoutCartActivity.class);
                 startActivity(i);
+            }
+
+
+
+        });
+
+        increase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                totalInt++;
+                total.setText(totalInt);
+            }
+
+        });
+
+        decrease.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                totalInt = totalInt - 1;
+                total.setText(totalInt);
             }
 
         });
