@@ -7,20 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    ImageView profileButton1;
-    ImageView profileButton2;
-    ImageView profileButton3;
-    ImageView profileButton4;
-    ImageView profileButton5;
-    ImageView profileButton6;
-    ImageView profileButton7;
-    ImageView profileButton8;
-    ImageView profileButton9;
+    LinearLayout profileButton1;
+    LinearLayout profileButton2;
+    LinearLayout profileButton3;
+    LinearLayout profileButton4;
+    LinearLayout profileButton5;
+    LinearLayout profileButton6;
+    LinearLayout profileButton7;
+    LinearLayout profileButton8;
+    LinearLayout profileButton9;
     Button profileButton10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
