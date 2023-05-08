@@ -24,6 +24,7 @@ public class ProfileActivity extends AppCompatActivity {
     LinearLayout profileButton8;
     LinearLayout profileButton9;
     TextView regBut;
+    TextView logOut;
     Button profileButton10;
 
     ImageView mesBut;
@@ -44,6 +45,7 @@ public class ProfileActivity extends AppCompatActivity {
         profileButton9 = findViewById(R.id.arrowButton9);
         profileButton10 = findViewById(R.id.arrowButton10);
 
+        logOut = findViewById(R.id.logoutBut);
         mesBut = findViewById(R.id.mesBut1);
         notBut = findViewById(R.id.notBut1);
 
@@ -80,6 +82,16 @@ public class ProfileActivity extends AppCompatActivity {
                         Intent(ProfileActivity.this, ShopRegister.class);
                 startActivity(i);
             }
+        });
+
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this,WelcomeActivity.class);
+                startActivity(i);
+            }
+
         });
 
         profileButton1.setOnClickListener(new View.OnClickListener() {
@@ -167,7 +179,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(ProfileActivity.this,ProfMyShopActivity.class);
+                        Intent(ProfileActivity.this,MyShopInfo.class);
                 startActivity(i);
             }
 

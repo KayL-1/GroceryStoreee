@@ -128,10 +128,10 @@
                         android:orientation="vertical">
 
                         <LinearLayout
+                            android:id="@+id/arrowButton1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton1">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -154,10 +154,10 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/arrowButton2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton2">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -180,10 +180,10 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/arrowButton3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton3">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -206,10 +206,10 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/arrowButton4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton4">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -305,10 +305,10 @@
                         android:orientation="vertical">
 
                         <LinearLayout
+                            android:id="@+id/arrowButton7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton7">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -331,10 +331,10 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/arrowButton8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton8">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -357,10 +357,10 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/arrowButton9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:id="@+id/arrowButton9">
+                            android:layout_margin="5dp">
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -389,6 +389,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/logoutBut"
                     android:text="LOG OUT"
                     android:textStyle="bold"
                     android:textSize="30sp"
