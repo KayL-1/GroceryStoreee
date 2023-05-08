@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -22,7 +23,11 @@ public class ProfileActivity extends AppCompatActivity {
     LinearLayout profileButton7;
     LinearLayout profileButton8;
     LinearLayout profileButton9;
+    TextView regBut;
     Button profileButton10;
+
+    ImageView mesBut;
+    ImageView notBut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +43,11 @@ public class ProfileActivity extends AppCompatActivity {
         profileButton8 = findViewById(R.id.arrowButton8);
         profileButton9 = findViewById(R.id.arrowButton9);
         profileButton10 = findViewById(R.id.arrowButton10);
+
+        mesBut = findViewById(R.id.mesBut1);
+        notBut = findViewById(R.id.notBut1);
+
+        regBut = findViewById(R.id.regButton1);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_profile);
@@ -61,6 +71,15 @@ public class ProfileActivity extends AppCompatActivity {
                     return true;
             }
             return false;
+        });
+
+        regBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this, ShopRegister.class);
+                startActivity(i);
+            }
         });
 
         profileButton1.setOnClickListener(new View.OnClickListener() {
@@ -149,6 +168,26 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new
                         Intent(ProfileActivity.this,ProfMyShopActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+        notBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this,NotificationActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+        mesBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this,MessageActivity.class);
                 startActivity(i);
             }
 

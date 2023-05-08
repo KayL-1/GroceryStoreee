@@ -105,7 +105,9 @@
                                     android:layout_gravity="center"
                                     android:text="Register Shop"
                                     android:textAlignment="center"
-                                    android:textSize="13dp" />
+                                    android:textSize="13dp"
+                                    android:textColor="@color/black"
+                                    android:id="@+id/regButton1"/>
                             </LinearLayout>
                         </LinearLayout>
 
