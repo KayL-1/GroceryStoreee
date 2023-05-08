@@ -49,7 +49,7 @@
         android:layout_marginTop="620dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="45dp"
-        android:text="PLACE ORDER" />
-
+        android:text="PLACE ORDER"
+        android:onClick="onButtonShowPopupWindowClick"/>
 
 </RelativeLayout>

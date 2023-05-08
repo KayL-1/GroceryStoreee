@@ -25,9 +25,6 @@
             android:name=".ProfHohoActivity"
             android:exported="false" />
         <activity
-            android:name=".PlaceorderCartActivity"
-            android:exported="false" />
-        <activity
             android:name=".ProfHahaActivity"
             android:exported="false" />
         <activity

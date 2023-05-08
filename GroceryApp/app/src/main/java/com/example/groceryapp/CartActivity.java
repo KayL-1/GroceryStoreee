@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -15,18 +16,16 @@ public class CartActivity extends AppCompatActivity {
 
 
     Button checkoutButton1;
-    ImageView increase;
-    ImageView decrease;
-    public int totalInt;
+    TextView total;
+    int totalInt = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
-        increase = findViewById(R.id.increase);
-        decrease = findViewById(R.id.decrease);
-        TextView total = findViewById(R.id.totalQuantity);
+        total = findViewById(R.id.totalQuantity);
         checkoutButton1 = findViewById(R.id.checkoutButton1);
+        Log.d("CartActivity", "total is null: " + (total == null));
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_cart);
@@ -61,26 +60,21 @@ public class CartActivity extends AppCompatActivity {
                 startActivity(i);
             }
 
-
-
         });
 
-        increase.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                totalInt++;
-                total.setText(totalInt);
-            }
-
-        });
-
-        decrease.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                totalInt = totalInt - 1;
-                total.setText(totalInt);
-            }
-
-        });
     }
+
+    public void decrease(View v) {
+        Log.d("CartActivity", "total is null: " + (total == null));
+        totalInt = totalInt - 1;
+        total.setText(String.valueOf(totalInt));
+    }
+
+    public void increase(View v) {
+        Log.d("CartActivity", "total is null: " + (total == null));
+        totalInt++;
+        total.setText(String.valueOf(totalInt));
+    }
+
+
 }
