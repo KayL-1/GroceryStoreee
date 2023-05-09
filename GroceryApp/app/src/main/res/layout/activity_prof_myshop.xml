@@ -22,7 +22,7 @@
             android:layout_marginBottom="0dp"
             android:src="@drawable/baseline_arrow_back_ios_24"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
     </RelativeLayout>
 
     <LinearLayout
@@ -33,6 +33,7 @@
         android:weightSum="60">
 
         <Button
+            android:id="@+id/homeBut"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginLeft="5dp"
@@ -41,6 +42,7 @@
             android:text="Home" />
 
         <Button
+            android:id="@+id/prodBut"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginLeft="5dp"
@@ -49,6 +51,7 @@
             android:text="Products" />
 
         <Button
+            android:id="@+id/revBut"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginLeft="5dp"
@@ -83,9 +86,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:textColor="#000000"
                         android:layout_weight="80"
                         android:text="Vegetables"
+                        android:textColor="#000000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
 
@@ -93,8 +96,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
-                        android:textColor="#000000"
                         android:text="See all"
+                        android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -129,16 +132,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -165,16 +168,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -201,16 +204,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -237,16 +240,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -273,16 +276,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -307,9 +310,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:textColor="#000000"
                         android:layout_weight="80"
                         android:text="Meats"
+                        android:textColor="#000000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
 
@@ -317,8 +320,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
-                        android:textColor="#000000"
                         android:text="See all"
+                        android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -353,16 +356,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -389,16 +392,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -425,16 +428,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -461,16 +464,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -497,16 +500,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -531,9 +534,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:textColor="#000000"
                         android:layout_weight="80"
                         android:text="Seafoods"
+                        android:textColor="#000000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
 
@@ -541,8 +544,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
-                        android:textColor="#000000"
                         android:text="See all"
+                        android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -577,16 +580,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -613,16 +616,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -649,16 +652,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -685,16 +688,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -721,16 +724,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -755,9 +758,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:textColor="#000000"
                         android:layout_weight="80"
                         android:text="Wheats"
+                        android:textColor="#000000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
 
@@ -765,8 +768,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
-                        android:textColor="#000000"
                         android:text="See all"
+                        android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -801,16 +804,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -837,16 +840,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -873,16 +876,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -909,16 +912,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -945,16 +948,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -979,9 +982,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:textColor="#000000"
                         android:layout_weight="80"
                         android:text="Fruits"
+                        android:textColor="#000000"
                         android:textSize="35sp"
                         android:textStyle="bold" />
 
@@ -989,8 +992,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
-                        android:textColor="#000000"
                         android:text="See all"
+                        android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -1025,16 +1028,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -1061,16 +1064,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -1097,16 +1100,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -1133,16 +1136,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
@@ -1169,16 +1172,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="Talong"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
-                                    android:textColor="#000000"
                                     android:text="$ 100.00"
+                                    android:textColor="#000000"
                                     android:textSize="16sp" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>

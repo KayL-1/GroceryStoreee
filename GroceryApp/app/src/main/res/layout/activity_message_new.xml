@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MessageActivity"
+    tools:context=".MessageNewAct"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -39,27 +39,18 @@
             android:textStyle="bold" />
     </RelativeLayout>
 
-
-    <LinearLayout
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:orientation="vertical"
-        android:background="@color/greenBG"
-        android:onClick="mesButton">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:text="HAHAHAHAHAHAHA"
-            android:layout_margin="10dp"
-            android:textColor="@color/white"/>
-    </LinearLayout>
-
-
-
-
-
-</LinearLayout>
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="8dp"
+        android:hint="Message:"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"
+        android:layout_margin="15dp"/>
+</RelativeLayout>

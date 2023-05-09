@@ -28,4 +28,10 @@ public class NotificationActivity extends AppCompatActivity {
 
         });
     }
+
+
+    public void notifButton(View v) {
+        Intent i = new Intent(NotificationActivity.this, NotifNewAct.class);
+        startActivity(i);
+    }
 }

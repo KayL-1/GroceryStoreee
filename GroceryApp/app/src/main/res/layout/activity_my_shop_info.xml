@@ -110,7 +110,7 @@
                                     android:layout_width="110dp"
                                     android:layout_height="35dp"
                                     android:layout_gravity="center"
-                                    android:text="My Shop"
+                                    android:text="View Shop"
                                     android:textSize="10sp" />
 
                             </LinearLayout>

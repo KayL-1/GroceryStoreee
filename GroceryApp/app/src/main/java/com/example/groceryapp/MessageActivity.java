@@ -30,4 +30,9 @@ public class MessageActivity extends AppCompatActivity {
         });
 
     }
+
+    public void mesButton(View v) {
+        Intent i = new Intent(MessageActivity.this, MessageNewAct.class);
+        startActivity(i);
+    }
 }

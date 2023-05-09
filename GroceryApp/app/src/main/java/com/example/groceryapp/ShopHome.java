@@ -7,50 +7,46 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import androidx.cardview.widget.CardView;
 
-public class ProfMyShopActivity extends AppCompatActivity {
-
-    ImageView backNav;
+public class ShopHome extends AppCompatActivity {
     Button homeBut;
     Button prodBut;
     Button revBut;
-
+    ImageView backNav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_prof_myshop);
+        setContentView(R.layout.activity_shop_home);
         backNav = findViewById(R.id.backNav);
-
         homeBut = findViewById(R.id.homeBut);
         prodBut = findViewById(R.id.prodBut);
         revBut = findViewById(R.id.revBut);
 
-        backNav.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ProfMyShopActivity.this, ProfileActivity.class);
-                startActivity(i);
-            }
-        });
-
-        homeBut.setOnClickListener(new View.OnClickListener() {
+        prodBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(ProfMyShopActivity.this, ShopHome.class);
+                        Intent(ShopHome.this, ProfMyShopActivity.class);
                 startActivity(i);
 
             }
 
+        });
+
+        backNav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ShopHome.this, ProfileActivity.class);
+                startActivity(i);
+            }
         });
 
         revBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(ProfMyShopActivity.this, ShopReview.class);
+                        Intent(ShopHome.this, ShopReview.class);
                 startActivity(i);
 
             }
@@ -58,8 +54,9 @@ public class ProfMyShopActivity extends AppCompatActivity {
         });
     }
 
+
     public void productButton(View v) {
-        Intent i = new Intent(ProfMyShopActivity.this, ProductActivity.class);
+        Intent i = new Intent(ShopHome.this, ProductActivity.class);
         startActivity(i);
     }
 }
