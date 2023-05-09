@@ -20,7 +20,7 @@ public class ShopRegister extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(ShopRegister.this,ProfileActivity.class);
+                        Intent(ShopRegister.this,MyShopInfo.class);
                 startActivity(i);
 
             }
