@@ -4,15 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class SearchActivity extends AppCompatActivity {
-
+    ImageView mesBut;
+    ImageView notBut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        mesBut = findViewById(R.id.mesBut1);
+        notBut = findViewById(R.id.notBut1);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_search);
@@ -36,6 +42,26 @@ public class SearchActivity extends AppCompatActivity {
                     return true;
             }
             return false;
+        });
+
+        notBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(SearchActivity.this,NotificationActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+        mesBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(SearchActivity.this,MessageActivity.class);
+                startActivity(i);
+            }
+
         });
     }
 }
