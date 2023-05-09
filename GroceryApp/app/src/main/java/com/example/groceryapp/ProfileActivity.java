@@ -26,6 +26,7 @@ public class ProfileActivity extends AppCompatActivity {
     TextView regBut;
     TextView logOut;
     Button profileButton10;
+    Button editButton;
 
     ImageView mesBut;
     ImageView notBut;
@@ -34,6 +35,7 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        editButton = findViewById(R.id.editBut);
         profileButton1 = findViewById(R.id.arrowButton1);
         profileButton2 = findViewById(R.id.arrowButton2);
         profileButton3 = findViewById(R.id.arrowButton3);
@@ -80,6 +82,15 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new
                         Intent(ProfileActivity.this, ShopRegister.class);
+                startActivity(i);
+            }
+        });
+
+        editButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(ProfileActivity.this, EditProfile.class);
                 startActivity(i);
             }
         });
