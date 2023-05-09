@@ -13,6 +13,36 @@
         android:theme="@style/Theme.GroceryApp"
         tools:targetApi="31">
         <activity
+            android:name=".CategoryActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct5"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct6"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct4"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct3"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct2"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct1"
+            android:exported="false" />
+        <activity
             android:name=".MyShopInfo"
             android:exported="false" />
         <activity

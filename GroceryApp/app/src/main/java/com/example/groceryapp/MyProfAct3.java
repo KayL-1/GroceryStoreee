@@ -3,37 +3,31 @@ package com.example.groceryapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class CategoryActivity extends AppCompatActivity {
+public class MyProfAct3 extends AppCompatActivity {
+
+
 
     ImageView backNav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
-
+        setContentView(R.layout.activity_my_prof_act3);
         backNav = findViewById(R.id.backNav);
 
         backNav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new
-                        Intent(CategoryActivity.this,HomeActivity.class);
+                        Intent(MyProfAct3.this, MyShopInfo.class);
                 startActivity(i);
 
             }
 
         });
-
-    }
-
-    public void productButton(View v) {
-        Intent i = new Intent(CategoryActivity.this, ProductActivity.class);
-        startActivity(i);
     }
 }

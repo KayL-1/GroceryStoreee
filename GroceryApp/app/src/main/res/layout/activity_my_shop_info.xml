@@ -390,7 +390,7 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:id="@+id/arrowButton1"
+                        android:id="@+id/arrowButton4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp">
@@ -416,7 +416,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/arrowButton2"
+                        android:id="@+id/arrowButton5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp">
@@ -442,7 +442,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/arrowButton3"
+                        android:id="@+id/arrowButton6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp">

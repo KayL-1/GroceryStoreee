@@ -15,6 +15,15 @@ public class MyShopInfo extends AppCompatActivity {
 
     LinearLayout backNav;
 
+    LinearLayout arrowButton1;
+    LinearLayout arrowButton2;
+    LinearLayout arrowButton3;
+    LinearLayout arrowButton4;
+    LinearLayout arrowButton5;
+    LinearLayout arrowButton6;
+    LinearLayout arrowButton7;
+    LinearLayout arrowButton8;
+
     ImageView mesBut;
     ImageView notBut;
     Button myshopBut;
@@ -26,6 +35,14 @@ public class MyShopInfo extends AppCompatActivity {
         mesBut = findViewById(R.id.mesBut1);
         notBut = findViewById(R.id.notBut1);
         myshopBut = findViewById(R.id.myshopBut);
+
+        arrowButton1 = findViewById(R.id.arrowButton1);
+        arrowButton2 = findViewById(R.id.arrowButton2);
+        arrowButton3 = findViewById(R.id.arrowButton3);
+        arrowButton4 = findViewById(R.id.arrowButton4);
+        arrowButton5 = findViewById(R.id.arrowButton5);
+        arrowButton6 = findViewById(R.id.arrowButton6);
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigation);
         bottomNavigationView.setSelectedItemId(R.id.bottom_profile);
         bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -49,6 +66,69 @@ public class MyShopInfo extends AppCompatActivity {
             }
             return false;
         });
+
+        arrowButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct1.class);
+                startActivity(i);
+            }
+
+        });
+
+        arrowButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct2.class);
+                startActivity(i);
+            }
+
+        });
+
+        arrowButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct3.class);
+                startActivity(i);
+            }
+
+        });
+
+        arrowButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct4.class);
+                startActivity(i);
+            }
+
+        });
+
+        arrowButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct5.class);
+                startActivity(i);
+            }
+
+        });
+
+        arrowButton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new
+                        Intent(MyShopInfo.this,MyProfAct6.class);
+                startActivity(i);
+            }
+
+        });
+
+
+
 
         backNav.setOnClickListener(new View.OnClickListener() {
             @Override
