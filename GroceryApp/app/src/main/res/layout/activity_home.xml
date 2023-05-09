@@ -40,16 +40,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="185dp"
-                    android:background="@drawable/banner" />
+
+                        <LinearLayout
+                            android:layout_width="500dp"
+                            android:layout_height="185dp"
+                            android:background="@drawable/banner" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -69,37 +71,37 @@
                             android:gravity="center">
 
                             <ImageView
+                                android:id="@+id/categ1"
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/categ"
-                                android:id="@+id/categ1"/>
+                                android:src="@drawable/categ" />
 
                             <ImageView
+                                android:id="@+id/categ2"
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/categ"
-                                android:id="@+id/categ2"/>
-
-
-                            <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
-                                android:src="@drawable/categ"
-                                android:id="@+id/categ3"/>
+                                android:src="@drawable/categ" />
 
 
                             <ImageView
+                                android:id="@+id/categ3"
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/categ"
-                                android:id="@+id/categ4"/>
+                                android:src="@drawable/categ" />
 
 
                             <ImageView
+                                android:id="@+id/categ4"
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/categ"
-                                android:id="@+id/categ5"/>
+                                android:src="@drawable/categ" />
+
+
+                            <ImageView
+                                android:id="@+id/categ5"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/categ" />
 
                         </LinearLayout>
 

@@ -26,7 +26,6 @@ public class HomeActivity extends AppCompatActivity {
 
         mesBut = findViewById(R.id.mesBut1);
         notBut = findViewById(R.id.notBut1);
-
         cat1 = findViewById(R.id.categ1);
         cat2 = findViewById(R.id.categ2);
         cat3 = findViewById(R.id.categ3);
@@ -134,4 +133,5 @@ public class HomeActivity extends AppCompatActivity {
         Intent i = new Intent(HomeActivity.this, ProductActivity.class);
         startActivity(i);
     }
+
 }
