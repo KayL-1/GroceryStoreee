@@ -41,10 +41,10 @@
                 android:orientation="vertical">
 
 
-                        <LinearLayout
-                            android:layout_width="500dp"
-                            android:layout_height="185dp"
-                            android:background="@drawable/banner" />
+                <LinearLayout
+                    android:layout_width="500dp"
+                    android:layout_height="185dp"
+                    android:background="@drawable/banner" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
